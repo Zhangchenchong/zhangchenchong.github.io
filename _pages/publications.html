@@ -59,7 +59,7 @@ author_profile: true
       <!-- loop over each subtype -->
       {%- endcomment -%}
       {% for st in subtypes %}
-        <h3>{{ st | capitalize }} Articles</h3>
+        <h3>{{ st | capitalize }} Articles</h3><hr />
         {% for post in all_posts %}
           {% if post.subtype == st %}
             {% include archive-single.html %}
@@ -72,7 +72,7 @@ author_profile: true
       {%- endcomment -%}
       {% assign no_subtype_posts = all_posts | where_exp:"item","item.subtype == nil" %}
       {% if no_subtype_posts.size > 0 %}
-        <h3>Other Articles</h3>
+        <h3>Other Articles</h3><hr />
         {% for post in no_subtype_posts %}
           {% include archive-single.html %}
         {% endfor %}
