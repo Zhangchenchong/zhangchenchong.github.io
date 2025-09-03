@@ -36,47 +36,48 @@ author_profile: true
 
 {% if site.publication_category %}
   {% for category in site.publication_category %}
-  {% assign title_shown = false %}
+    {% assign title_shown = false %}
   
-  {% assign all_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+    {% assign all_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
 
-  {% if all_posts.size > 0 %}
-    <h2>{{ category[1].title }}</h2><hr />
-    {% assign title_shown = true %}
+    {% if all_posts.size > 0 %}
+      <h2>{{ category[1].title }}</h2><hr />
+      {% assign title_shown = true %}
 
-    {%- comment -%}
-    <!-- collect all subtype -->
-    {%- endcomment -%}
-    {% assign subtypes = "" | split: "" %}
-    {% for post in all_posts %}
-      {% if post.subtype %}
-        {% assign subtypes = subtypes | push: post.subtype %}
-      {% endif %}
-    {% endfor %}
-    {% assign subtypes = subtypes | uniq %}
-
-    {%- comment -%}
-    <!-- loop over each subtype -->
-    {%- endcomment -%}
-    {% for st in subtypes %}
-      <h3>{{ st | capitalize }} Articles</h3>
+      {%- comment -%}
+      <!-- collect all subtype -->
+      {%- endcomment -%}
+      {% assign subtypes = "" | split: "" %}
       {% for post in all_posts %}
-        {% if post.subtype == st %}
-          {% include archive-single.html %}
+        {% if post.subtype %}
+          {% assign subtypes = subtypes | push: post.subtype %}
         {% endif %}
       {% endfor %}
-    {% endfor %}
+      {% assign subtypes = subtypes | uniq %}
 
-    {%- comment -%}
-    <!-- no subtype papers -->
-    {%- endcomment -%}
-    {% assign no_subtype_posts = all_posts | where_exp:"item","item.subtype == nil" %}
-    {% if no_subtype_posts.size > 0 %}
-      <h3>Other Articles</h3>
-      {% for post in no_subtype_posts %}
-        {% include archive-single.html %}
+      {%- comment -%}
+      <!-- loop over each subtype -->
+      {%- endcomment -%}
+      {% for st in subtypes %}
+        <h3>{{ st | capitalize }} Articles</h3>
+        {% for post in all_posts %}
+          {% if post.subtype == st %}
+            {% include archive-single.html %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endif %}
 
-  {% endif %}
-{% endfor %}
+      {%- comment -%}
+      <!-- no subtype papers -->
+      {%- endcomment -%}
+      {% assign no_subtype_posts = all_posts | where_exp:"item","item.subtype == nil" %}
+      {% if no_subtype_posts.size > 0 %}
+        <h3>Other Articles</h3>
+        {% for post in no_subtype_posts %}
+          {% include archive-single.html %}
+        {% endfor %}
+      {% endif %}
+
+    {% endif %}
+  {% endfor %}
+{% endif %}
