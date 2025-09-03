@@ -61,7 +61,7 @@ author_profile: true
       {%- endcomment -%}
 
       {% for st in subtypes %}
-        <h3>{{ st | capitalize }} Articles</h3>
+        <h3>{{ st | capitalize }}</h3>
         {% for post in all_posts %}
           {% if post.subtype == st %}
             {% include archive-single.html %}
