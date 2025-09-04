@@ -42,3 +42,9 @@
     "vendor/font-awesome/brands"
 ;
 @import "publications";
+
+.archive__item-image img {
+  max-width: 200px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
