@@ -22,7 +22,7 @@ repository               : "Zhangchenchong/zhangchenchong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/MISA.jpg"
+  avatar           : "images/MISA"
   name             : "Chenchong Zhang"
   pronouns         : "he/him"  
   bio              : "Ph.D. in Energy, Environmental, and Chemical Engineering. Experienced in developing multi-scale climate and chemical transport models, advancing remote sensing retrievals, and applying AI/ML for environmental applications."
