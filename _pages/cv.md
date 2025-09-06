@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[PDF version of the CV can be found at this link (last updated: Sep 2025)]( /files/CV_ChenchongZhang.pdf )
+
 {% include base_path %}
 
 Education
