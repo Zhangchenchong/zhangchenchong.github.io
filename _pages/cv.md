@@ -16,15 +16,15 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Sep 2023 - Present: Postdoctoral research fellow
+  * Department of Earth System Science, Doerr School of Sustainability, Stanford University
+  * Using remote sensing and chemical transport modeling to study the aging processes of light-absorbing carbonaceous particles.
+  * Supervisor: Professor Yuan Wang
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2023 - Aug 2023: Postdoctoral research associate
+  * Division of Chemistry and Chemical Engineering, California Institute of Technology
+  * Quantifying secondary PM2.5 production in agricultural areas by combining JPL’s TIR imaging with Caltech’s in-situ observations and chemical transport modeling.
+  * Supervisor: Professor John H. Seinfeld
 
 * Summer 2015: Research Assistant
   * GitHub University
