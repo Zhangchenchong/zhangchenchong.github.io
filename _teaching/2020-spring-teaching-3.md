@@ -1,20 +1,21 @@
 ---
-title: "Teaching experience 2"
+title: "Transport Phenomenon I: Basics and Fluid Mechanics"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: /teaching/2020-spring-teaching-3
+venue: "Washington University in St. Louis, Energy, Environmental, and Chemical Engineering"
+date: 2020-01-15
+location: "St. Louis, US"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This course is an introductory course that teaches fundamental concepts related to fluids dynamics, and how the fluids behave under various condition
+Course instructor: Professor Rajan K. Chakrabarty
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

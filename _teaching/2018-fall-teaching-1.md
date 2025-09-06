@@ -1,5 +1,5 @@
 ---
-title: "Teaching experience 1"
+title: "Transport Phenomena"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2018-fall-teaching-1
@@ -8,14 +8,14 @@ date: 2018-09-01
 location: "St. Louis, US"
 ---
 
-Fundamentals of mass, heat, and momentum transport phenomena.
+This course teaches the advances transport phenomena, incluing mass, heat, and momentum transport phenomena in different medium with multiple geometries.
 Course instructor: Professor Palghat Ramachandran
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->
