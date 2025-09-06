@@ -26,19 +26,38 @@ Work experience
   * Quantifying secondary PM2.5 production in agricultural areas by combining JPL’s TIR imaging with Caltech’s in-situ observations and chemical transport modeling.
   * Supervisor: Professor John H. Seinfeld
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Nov 2022 - Apr 2023: Postdoctoral research associate
+  * Department of Earth, Atmospheric, and Planetary Sciences, Purdue University
+  * The evolution of wildfire-emitted brown carbon in the Western United States.
+  * Supervisor: Professor Yuan Wang
+
+* Aug 2017 - Oct 2022: Graduate research assistant
+  * Department of Energy, Environmental and Chemical Engineering, Washington University in St. Louis
+  * Characterization of smoke particles toward improved remote sensing retrievals and chemical transport modeling.
+  * Supervisor: Professor Rajan K. Charkabarty
+
+* Jul 2016 - Jul 2017: Research Assistant (full-time employment)
+  * School of Environment, Tsinghua University
+  * 3-D morphological reconstruction of black carbon aggregates
+  * Supervisor: Professor Jingkun Jiang
+
+* Jul 2016 - Jul 2017: Undergraduate research intern
+  * Department of Atmospheric Sciences, University of Illinois Urbana-Champaign
+  * Modelings of aggregated particles’ optical properties using discrete dipole approximation
+  * Supervisor: Professor Nicole Riemer
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Modeling and AI/ML Techniques
+  * Deep learning
+  * Clustering algorithm
+  * Model development in general circulation models (e.g. CESM) and chemical transport models (e.g. WRF-Chem).
+* Data Engineering & Analytics
+  * Large-scale data integration
+  * Statistical modeling
+  * Geospatial mapping from remote sensing and sensor networks
+  * Postprocessing of multidimensional metadata (satellite data, climate model outputs, etc.)
+* Programming Languages: Python, C++, R, MATLAB.
 
 Publications
 ======
