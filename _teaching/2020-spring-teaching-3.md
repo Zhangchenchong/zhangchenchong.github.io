@@ -3,7 +3,7 @@ title: "Transport Phenomenon I: Basics and Fluid Mechanics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-spring-teaching-3
-venue: "Washington University in St. Louis, Energy, Environmental, and Chemical Engineering"
+venue: "Washington University in St. Louis, Department of Energy, Environmental, and Chemical Engineering"
 date: 2020-01-15
 location: "St. Louis, US"
 ---

@@ -3,7 +3,7 @@ title: "Measurement Techniques for Particle Characterization"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2019-spring-teaching-2
-venue: "Washington University in St. Louis, Energy, Environmental, and Chemical Engineering"
+venue: "Washington University in St. Louis, Department of Energy, Environmental, and Chemical Engineering"
 date: 2019-01-15
 location: "St. Louis, US"
 ---

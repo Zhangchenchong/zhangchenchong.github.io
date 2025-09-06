@@ -3,7 +3,7 @@ title: "Transport Phenomena"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2018-fall-teaching-1
-venue: "Washington University in St. Louis, Energy, Environmental, and Chemical Engineering"
+venue: "Washington University in St. Louis, Department of Energy, Environmental, and Chemical Engineering"
 date: 2018-09-01
 location: "St. Louis, US"
 ---
