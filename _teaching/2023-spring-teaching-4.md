@@ -3,7 +3,7 @@ title: "Cloud Physics"
 collection: teaching
 type: "Guest lecturer, graduate course"
 permalink: /teaching/2023-spring-teaching-4
-venue: "Purdue, Department of Earth, Atmospheric, and Planetary Sciences"
+venue: "Purdue University, Department of Earth, Atmospheric, and Planetary Sciences"
 date: 2023-01-15
 location: "West Lafayette, US"
 ---
